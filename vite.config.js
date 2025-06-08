@@ -11,6 +11,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: 3000,
-    allowedHosts: ['bmi-calculator-7wv1.onrender.com/'], // ✅ Add this line
+    allowedHosts: ['bmi-calculator-7wv1.onrender.com'], // ✅ Add this line
   },
 })
