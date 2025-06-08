@@ -1,0 +1,54 @@
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 20px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    input{
+        padding: 15px;
+        font-size: medium;
+        margin-left: 10px;
+        border-radius: 5px;
+        ::placeholder{
+            font-size: medium;
+        }
+    }
+  }
+
+  .btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    .btn{
+        padding: 20px;
+        width: 80%;
+        border-radius: 20px;
+    }
+    .btn-outline{
+        background-color: rgb(42, 42, 221);
+        color: white;
+        font-size: large;
+        font-weight: 200;
+    }
+  }
+  .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
